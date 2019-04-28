@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    zuul:
+      path: /zuul1/**
+      serviceId: qkaler-eureka-server
+    api-a:
+      path: /api-a/**
+      serviceId: qkaler-eureka-server
+    api-b:
+      path: /api-b/**
+      serviceId: qkaler-eureka-server
